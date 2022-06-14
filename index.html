@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexandr Apanasionak CV</title>
     
-    <link rel=""stylesheet" href="style.css">
-    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -18,8 +18,8 @@
             <nav class="nav">
                 <ul class="nav-list">
                   <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                  <li class="nav-item"><a href="#about me" class="nav-link">About me</a></li>
-                  <li class="nav-item"><a href="#code example" class="nav-link">Code example</a></li>
+                  <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                  <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
                   <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                   <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                   <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
@@ -27,11 +27,11 @@
             </nav>> 
         </div>
     </header>
-    <main class="main">
+    <main class="container main-conteiner">
         <div class="left-part">
-            <img scr="./image.jpg" alt="my photo">
-            <section class="contacts">
-                <h2>Contacts</h2>
+            <img src="./assets/image.jpg" width="150" hight="300" alt="my photo">
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
                 <ul>
                     <li>Location: Gomel, Belarus</li>
                     <li>Phone: 80 (29) 2987291</li>
@@ -39,19 +39,50 @@
                     <li>GitHub:<a href="https://github.com/apanasius96">apanasius96</a></li>
                 </ul>
             </section>
-            <section class="education">
-                <h2>Education</h2>
-                <ul>
-                    <li>University: Belarusian State Aviation Academy, ATC</li>
-                </ul>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>University: Belarusian State Aviation Academy, ATC</p>
             </section>
         <div class="right-part">
-            
+            <h1 class="section-title">Alexandr Apanasionak</h1>
+            <section class="section" id="about-me">
+                <h2 class="section-title">About me</h2>
+                <p>I am 23  years old. I work as an air traffic controller in Gomel's branch of state enterprise of "Belaeronavigatsiya". I'm  gonna pass JavaScript/Front-end Stage 0 course.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class=""section-title>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS/SASS</li>
+                    <li>JavaScript (Basic)</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+            <section class="section" id="code-example">
+                <h2 class="section-title">Code example</h2>
+                <code>
+                    <span>
+                        function sum(a, b) {
+                        <br>
+                        return a + b;
+                        <br>
+                        }
+                        <br>
+                        <br>
+                        let result = sum(1, 2);
+                        <br>
+                        alert( result );
+                    </span>
+                </code>    
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>PELTA Proficiency English Language Test for Aviation, Level 4 (operational)</p>
+            </section>
         </div>
         </div>
-        <div class="right-part"></div>
     </main>
-    <footer class="footer">
+    <footer class="container">
        
     </footer>
 </body>
