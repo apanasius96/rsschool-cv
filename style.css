@@ -48,8 +48,10 @@ html {
     }
 }
 .footer {
-    max-width: 1440px;
-    display: inline-flex;
+    position: relative;
+    left: 0;
+    right: 0;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
