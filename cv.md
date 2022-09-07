@@ -1,4 +1,4 @@
-[rsschool-cv](https://apanasius96.github.io/CV/)
+[rsschool-cv](https://apanasius96.github.io/rsschool-cv/)
 ---
 # Alexandr Apanasionak
 ---  
