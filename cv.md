@@ -10,7 +10,7 @@
 * **GitHub:** [apanasius96](https://github.com/apanasius96)
 ## About Me
 ---
-I am 23  years old. I work as an air traffic controller in Gomel's branch of state enterprise of "Belaeronavigatsiya". I'm  gonna pass JavaScript/Front-end Stage 0 course.
+I am 23  years old. I work as an air traffic controller in Gomel's branch of state enterprise of "Belaeronavigatsiya". I'm  gonna pass JavaScript/Front-end Stage 1 course.
 ## Skills
 ---
 * HTML
